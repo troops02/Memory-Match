@@ -1,4 +1,52 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Chewy", system-ui;
+  background-color: #252626;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+  color: #1c856a;
+  border-bottom: 1px solid gray;
+}
+
+header > h1 {
+  font-size: 5em;
+}
+
+header > p {
+  font-size: medium;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container{
+  border: 1px solid #4e4f4f;
+}
+
+.restart {
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-family: "Chewy";
+  cursor: pointer;
+  background-color: #1c856a;
+  color: white;
+  font-size: large;
+  border: none;
+  transition: all 0.3s ease;
+}
+.restart:active {
+  background-color: #0f6650;
+  transition: scale(1.95);
 }
