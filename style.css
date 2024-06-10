@@ -11,7 +11,7 @@ body {
 
 header {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
   color: #1c856a;
   border-bottom: 1px solid gray;
 }
@@ -21,7 +21,7 @@ header > h1 {
 }
 
 header > p {
-  font-size: medium;
+  font-size: 1.5em;
 }
 
 main {
@@ -29,10 +29,6 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
-}
-
-.container{
-  border: 1px solid #4e4f4f;
 }
 
 .restart {
@@ -46,6 +42,7 @@ main {
   border: none;
   transition: all 0.3s ease;
 }
+
 .restart:active {
   background-color: #0f6650;
   transition: scale(1.95);
