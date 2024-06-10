@@ -28,7 +28,19 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin: 20px;
+}
+
+.container {
+  display: grid;
+  gap: 20px;
+  transition: all 0.3s ease;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 400px 400px 400px 400px;
+}
+.container > div {
+  background-color: #423c3c;
+  border: 1px solid gray;
 }
 
 .restart {
@@ -46,4 +58,11 @@ main {
 .restart:active {
   background-color: #0f6650;
   transition: scale(1.95);
+}
+
+.hide-1,
+.hide-2,
+.hide-3,
+.hide-4 {
+  display: none;
 }
