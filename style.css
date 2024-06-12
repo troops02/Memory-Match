@@ -47,6 +47,7 @@ main {
 .container > div {
   background-color: #141414;
   border: 1px solid gray;
+  border-radius: 10px;
 }
 
 .restart {
